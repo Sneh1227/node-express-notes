@@ -1,6 +1,10 @@
 const { error } = require("console");
 const fs = require("fs");
 
+// cpu core size
+// const os = require("os");
+// console.log(os.cpus().length);
+
 // sync
 // fs.writeFileSync("./data.txt","Hey Folks");
 
@@ -15,7 +19,7 @@ const fs = require("fs");
 //  for result we have to put a call back function.
 
 // sync
-// 
+//
 
 // append
 // fs.appendFileSync("./data.txt", "hello\n");
@@ -24,4 +28,4 @@ const fs = require("fs");
 // fs.cpSync("./data.txt","./copy.txt");
 
 // delete
-fs.unlinkSync("./copy.txt");
+// fs.unlinkSync("./copy.txt");
