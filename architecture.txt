@@ -1,0 +1,10 @@
+request -> event queue -> event loop ->
+if non blocking then processed by event loop and given the response.
+if blocking then goes to
+**thread is responsible to fullfill the blocking operation**
+
+->thread pool(worker) ->if a worker is available -> it is assign to request
+->seat back in thread pool after finishing the work
+
+**threads are limited by default there are 4 threads
+**max? - core8 cpu = 8 thread
