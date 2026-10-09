@@ -1,6 +1,6 @@
 const utilities = require("./utilities");
 
-const total = utilities.calculateTotal(1500,3);
+const total = utilities.calculateTotal(1500, 3);
 console.log(total);
 
 const destination = {
