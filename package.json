@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Sneh1227/node-express-notes/issues"
   },
-  "homepage": "https://github.com/Sneh1227/node-express-notes#readme"
+  "homepage": "https://github.com/Sneh1227/node-express-notes#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
