@@ -12,8 +12,8 @@
 // console.log(utilities.isAvailable(destination));
 
 // http server through node
-const http = require("http");
-const fs = require("fs");
+// const http = require("http");
+// const fs = require("fs");
 
 // const myserver = http.createServer((req, res) => {
 //     const log = `${Date.now()}: ${req.url} New Req Received\n`;
@@ -42,7 +42,14 @@ app.get("/", (req, res) => {
 });
 
 app.get("/about", (req, res) => {
-    return res.send(`hey it's sneh prajapati ${req.query.name}`);
+    return res.send(`hey ${req.query.name}`);
 });
 
 app.listen(8000, () => console.log("server started!"));
+
+// REST API
+// 1 always follow server client architecture
+// client is individual and server is individual client should not 
+// stay depended on server
+
+// 2 always respect all http methods
