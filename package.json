@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Sneh1227/node-express-notes#readme",
   "dependencies": {
-    "express": "^5.2.1",
+    "express": "^5.3.0",
     "nodemon": "^3.1.14",
     "pg": "^8.23.1"
   }
